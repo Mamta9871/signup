@@ -1,0 +1,82 @@
+/* Cprofile.css */
+
+.Cprofile {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .one {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .completion-notice {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .two, .three {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+  }
+  
+  .three a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .three a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  .contact-details label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  .contact-details label i {
+    margin-right: 10px;
+  }
+  
+  .contact-details input {
+    flex: 1;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .update-btn {
+    background-color: #d9534f;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .cancel-btn {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  

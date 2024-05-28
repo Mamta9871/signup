@@ -42,8 +42,13 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    
 }
 
+.no-underline{
+    text-decoration: none;
+    color: inherit;
+}
 .signup-form button:hover{
     background-color: #27ae60;
 }
